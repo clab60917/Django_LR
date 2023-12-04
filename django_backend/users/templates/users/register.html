@@ -12,6 +12,17 @@
           {{ form|crispy }}
       </fieldset>
       <div class="form-group" id="signup-button">
+          <button class="btn">Sign Up</button>
+      </div>
+      <div class="form-group">
+          <small class="text-muted ml-3">Already have an account? <a href="{% url 'login' %}">Sign In</a></small>
+      </div>
+    </form>
+    </div>
+{% endblock %}
+          {{ form|crispy }}
+      </fieldset>
+      <div class="form-group" id="signup-button">
           <button class="btn ">Sign Up</button>
       </div>
       <div class="form-group">
